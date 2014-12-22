@@ -26,8 +26,7 @@ This WooCommerce plugin is for anyone who needs to calculate shipping costs base
 * Quantity based rates
 * Per item/Kg/Lbs costs
 * Priority support
-
-[Upgrade to premium version](https://mangohour.com/plugins/woocommerce-table-rate-shipping)
+<br/>[Upgrade to premium version](https://mangohour.com/plugins/woocommerce-table-rate-shipping)
 
 = Requirements =
 
