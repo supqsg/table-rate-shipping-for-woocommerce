@@ -75,11 +75,6 @@ The error is due to a limit imposed by your server setup with regards to how muc
 
 == Changelog ==
 
-= 1.1.0 =
-* Multisite support.
-* Cosmetic improvements.
-* Performance improvements.
-
 = 1.0.2 =
 * Fixed tax calculation bug.
 
