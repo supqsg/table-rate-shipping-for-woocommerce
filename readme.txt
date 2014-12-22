@@ -3,7 +3,7 @@ Contributors: mangohour
 Tags: country, weight, cart total, price, woocommerce, table rate, shipping, calculator
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=sales@mangohour.com&item_name=Donation+for+Table+Rate+Shipping
 Requires at least: 3.8
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: trunk
 
 Calculate shipping costs based on destination, weight and/or price. Supports unlimited country groups and rates.
@@ -13,16 +13,28 @@ Calculate shipping costs based on destination, weight and/or price. Supports unl
 This WooCommerce plugin is for anyone who needs to calculate shipping costs based on destination, weight and/or price. 
 
 = Features =
-* Unlimited shipping zones (country groups).
-* Unlimited rates.
-* Tier your shipping costs based on cart weight, or cart sub-total.
-* Optional handling fees
+* Unlimited shipping zones (country groups)
+* Unlimited rates
+* Tier your shipping costs based on cart weight, or cart sub-total
+* Handling fees
 
-This plugin requires WooCommerce 2.1 or above.
+= Premium Features =
+* State-based shipping zones
+* ZIP/postcode/postal code shipping zones
+* Shipping classes for products, allowing complex rules
+* Delivery options (e.g. “Standard” or “Express” delivery)
+* Quantity based rates
+* Per item/Kg/Lbs costs
+* Priority support
+[Upgrade to premium version](https://mangohour.com/plugins/woocommerce-table-rate-shipping)
 
-A premium version is also available with additional features such as multiple shipping methods (E.g 'Standard Shipping', 'Express Shipping'). [Click here to find out more](http://mangohour.com/plugins/woocommerce-table-rate-shipping).
+= Requirements =
 
-I hope you will find this plugin useful! Please leave any feedback or questions in the support forum - I will do my best to help.
+This plugin is compatible with WooCommerce 2.1 or above.
+
+= Feedback and Questions =
+
+Please post any issues or questions to our [support forum](https://wordpress.org/support/plugin/table-rate-shipping-for-woocommerce). If you find this plugin useful, please consider supporting our work by [upgrading to premium](https://mangohour.com/plugins/woocommerce-table-rate-shipping) or leaving a review.
 
 == Installation ==
 
@@ -36,13 +48,9 @@ After adding a shipping zone (country group), remember to hit 'Save changes' bef
 
 == Frequently Asked Questions ==
 
-= Will the plugin be updated? =
-
-Yes I plan to keep updating the plugin to maintain compatibility.
-
 = What currencies / weight units / languages are supported? =
 
-The plugin is compatible with any WooCommerce currency/weight unit. Language translations will be added in a future update.
+The plugin is compatible with any WooCommerce supported currency/weight unit. Language translations will be added in a future update.
 
 = How does the 'Everywhere Else' zone work? =
 
@@ -56,12 +64,21 @@ Yes, just create a table rate using the zone, enter '0' for min and '*' for max.
 
 The cheapest applicable rate will be chosen automatically for the customer.
 
+= I receive an 'Action failed' error after adding over 100 rates?  =
+
+The error is due to a limit imposed by your server setup with regards to how much data you can send. Find your `php.ini` file and increase the setting called `max_input_vars` to at least 5000. 
+
 == Screenshots ==
 
 1. Settings screen
 2. Cart example, using shown settings
 
 == Changelog ==
+
+= 1.1.0 =
+* Multisite support.
+* Cosmetic improvements.
+* Performance improvements.
 
 = 1.0.2 =
 * Fixed tax calculation bug.
