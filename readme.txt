@@ -24,9 +24,11 @@ This WooCommerce plugin is for anyone who needs to calculate shipping costs base
 * Shipping classes for products, allowing complex rules
 * Delivery options (e.g. “Standard” or “Express” delivery)
 * Quantity based rates
-* Per item/Kg/Lbs costs
+* Per item/kg/lbs costs
+* Easy backups
 * Priority support
-* [More info/upgrade](https://mangohour.com/plugins/woocommerce-table-rate-shipping)
+
+[Upgrade to premium version](https://mangohour.com/plugins/woocommerce-table-rate-shipping)
 
 = Requirements =
 
@@ -74,6 +76,12 @@ The error is due to a limit imposed by your server setup with regards to how muc
 2. Cart example, using shown settings
 
 == Changelog ==
+
+= 1.1.0 =
+* Improved compatibility with WooCommerce 2.3.
+* Multi-site support.
+* Interface tweaks.
+* Performance improvements.
 
 = 1.0.2 =
 * Fixed tax calculation bug.
