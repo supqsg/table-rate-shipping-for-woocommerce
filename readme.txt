@@ -25,6 +25,7 @@ This WooCommerce plugin is for anyone who needs to calculate shipping costs base
 * Delivery options (e.g. “Standard” or “Express” delivery)
 * Quantity based rates
 * Per item/kg/lbs costs
+* Percentage costs
 * Easy backups
 * Priority support
 
