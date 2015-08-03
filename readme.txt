@@ -3,7 +3,7 @@ Contributors: mangohour
 Tags: country, weight, cart total, price, woocommerce, table rate, shipping, calculator
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=sales@mangohour.com&item_name=Donation+for+Table+Rate+Shipping
 Requires at least: 3.8
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: trunk
 
 Calculate shipping costs based on destination, weight and/or price. Supports unlimited country groups and rates.
@@ -25,6 +25,7 @@ This WooCommerce plugin is for anyone who needs to calculate shipping costs base
 * Delivery options (e.g. “Standard” or “Express” delivery)
 * Quantity based rates
 * Per item/kg/lbs costs
+* Advanced tax/VAT support
 * Percentage costs
 * Easy backups
 * Priority support
